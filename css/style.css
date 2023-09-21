@@ -77,3 +77,24 @@ img {
 #gallery .column img {
     margin-top: 8px;
 }
+
+/*media queries*/
+
+/*Tablet*/
+
+@media screen and (max-width:850px) {
+    #gallery .column {
+        flex: 50%;
+    }
+}
+
+/*Mobile*/
+
+@media screen and (max-width:565px) {
+    #gallery .column {
+        flex: 100%;
+    }
+}
+
+
+
